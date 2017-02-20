@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PickerView">
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="highlightTextSize" format="dimension"/>
+        <attr name="highlightTextColor" format="color"/>
+
+        <attr name="itemHeight" format="dimension"/>
+        <attr name="centerClipHeight" format="dimension"/>
+
+        <attr name="cycle" format="boolean"/>
+
+        <attr name="drawCount" format="integer"/>
+        <attr name="tiltDegree" format="float"/>
+
+        <attr name="dividerDrawable" format="reference"/>
+        <attr name="shadowDrawable" format="reference"/>
+        <attr name="centerClipDrawable" format="reference"/>
+    </declare-styleable>
+</resources>

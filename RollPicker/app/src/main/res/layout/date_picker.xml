@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#eeeeee"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.nalan.rollpicker.tools.NumberPicker
+        android:id="@+id/year"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:shadowDrawable="@drawable/shadow_gray"
+        app:highlightTextColor="#000000"
+        app:highlightTextSize="18sp"
+        app:textColor="#111111"
+        app:textSize="16sp"
+        app:itemHeight="32dp"
+        app:centerClipHeight="35dp"
+        app:tiltDegree="20"
+        app:cycle="false"
+        app:minValue="1977"
+        app:maxValue="2017"/>
+
+    <com.nalan.rollpicker.tools.NumberPicker
+        android:id="@+id/month"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:shadowDrawable="@drawable/shadow_gray"
+        app:highlightTextColor="#000000"
+        app:highlightTextSize="18sp"
+        app:textColor="#111111"
+        app:textSize="16sp"
+        app:itemHeight="32dp"
+        app:centerClipHeight="35dp"
+        app:tiltDegree="20"
+        app:cycle="true"
+        app:minValue="1"
+        app:maxValue="12"/>
+
+    <com.nalan.rollpicker.tools.NumberPicker
+        android:id="@+id/day"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:shadowDrawable="@drawable/shadow_gray"
+        app:highlightTextColor="#000000"
+        app:highlightTextSize="18sp"
+        app:textColor="#111111"
+        app:textSize="16sp"
+        app:itemHeight="32dp"
+        app:centerClipHeight="35dp"
+        app:tiltDegree="20"
+        app:cycle="true"
+        app:minValue="1"
+        app:maxValue="31"/>
+
+</merge>

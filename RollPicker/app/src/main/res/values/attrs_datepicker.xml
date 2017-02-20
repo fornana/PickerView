@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DatePicker">
+        <attr name="year" format="integer"/>
+        <attr name="month" format="integer"/>
+        <attr name="day" format="integer"/>
+        <attr name="divider" format="reference"/>
+    </declare-styleable>
+</resources>
